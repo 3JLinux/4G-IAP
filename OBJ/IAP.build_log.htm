@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jjj jjj, jjj, LIC=50DWF-63CHX-IL0CB-2Y3TK-3MT3N-2C9AS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:       TARMSTM.DLL   
+ 
+<h2>Project:</h2>
+E:\å«Èó´úÂë\å«Èó´úÂë\iap\iap_test\IAP-Bootloader_4g\USER\IAP.uvprojx
+Project File Date:  05/08/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\HARDWARE\SIM7600CE\sim7600ce_connect.h(34): warning:  #47-D: incompatible redefinition of macro "GPRS_EN" (declared at line 18 of "..\HARDWARE\LED\led.h")
+  #define GPRS_EN(a)                    sysSetPinStat(GPRS_POWER_EN_PORT, GPRS_POWER_EN_PIN, a)
+main.c(380): warning:  #177-D: variable "connetion_state" was declared but never referenced
+        static u8 connetion_state = NET_CONNRTION_ERR;
+main.c(693): warning:  #177-D: function "printf_string" was declared but never referenced
+  void printf_string(u8* data,u32 len)
+main.c: 3 warnings, 0 errors
+compiling sim7600ce_connect.c...
+linking...
+Program Size: Code=17340 RO-data=1212 RW-data=112 ZI-data=13224  
+FromELF: creating hex file...
+"..\OBJ\IAP.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\å«Èó´úÂë\å«Èó´úÂë\iap\iap_test\IAP-Bootloader_4g\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

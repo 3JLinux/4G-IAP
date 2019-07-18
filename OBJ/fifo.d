@@ -1,0 +1,16 @@
+..\obj\fifo.o: ..\HARDWARE\FIFO\fifo.c
+..\obj\fifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\fifo.o: ..\HARDWARE\FIFO\fifo.h
+..\obj\fifo.o: ..\SYSTEM\sys\sys.h
+..\obj\fifo.o: ..\USER\stm32f10x.h
+..\obj\fifo.o: ..\CORE\core_cm3.h
+..\obj\fifo.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\fifo.o: ..\USER\system_stm32f10x.h
+..\obj\fifo.o: ..\USER\stm32f10x_conf.h
+..\obj\fifo.o: ..\STM32F10x_FWLib\inc\stm32f10x_flash.h
+..\obj\fifo.o: ..\USER\stm32f10x.h
+..\obj\fifo.o: ..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h
+..\obj\fifo.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+..\obj\fifo.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+..\obj\fifo.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+..\obj\fifo.o: ..\STM32F10x_FWLib\inc\misc.h
